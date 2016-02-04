@@ -1,0 +1,21 @@
+Trabajando como Freelancer debo desarrollar estas importantes habilidades.
+		Si trabajo para clientes en estados unidos u otro pais:
+			Exigir pagos semanales o quincenales, y no por proyectos.
+				Es mejor cobrar por dia y jornada de trabajo, por ejemplo 1 dia de trabajo 6horas, tantos $.
+			Es bueno tener un buen perfil en linkedin actualizado, en ingles.
+				Tener un blog en Ingles actualizado, que relate mis conocimientos, si los posts son en ingles y que pueda probar mis skills en ingles, mejor.
+			Tener ahorros por si acaso.
+			Saber decir que no al cliente y explicarle por que no. Siempre ser honesto.
+
+	Acumular experiencia para saber cuanto tiempo toma realizar cada feature-mudulo dependendiendo del lenguaje.
+			Importante saber Git.
+			
+		Si es php y Laravel backend cuanto tiempo toma cada feature-modulo, front-end con bootstrap o no?
+
+		Si es Java y Spring backend cuanto tiempo toma cada feature-modulo, front-end con bootstrap o no?
+
+		Si es Ruby on Rails backend cuanto tiempo toma cada feature-modulo, front-end con bootstrap o no?
+
+		Si es JavaScript y Meteor cuanto tiempo tarda cada feature-modulo, front-end con bootstrap o no?
+
+		Si es JavaScript y Mean cuanto tiempo tarda cada feature-modulo, front-end con bootstrap o no?
