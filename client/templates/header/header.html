@@ -1,4 +1,5 @@
 <template name="header">
+<!-- {{> contact}} -->
 	<nav class="navbar navbar-default menu" role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
@@ -14,10 +15,14 @@
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse navbar-ex1-collapse">
 	<ul class="nav navbar-nav menuHeader">
-	  <li><a class="mactive" href="/">Home</a></li>
-	  <li><a  href="/about">About us</a></li>
+	  <li><a href="/">Home</a></li>
+	  <li><a href="/about">About us</a></li>
 	  <li><a href="/services">Services</a></li>
-	  <li><a href="/contact">Contact</a></li>
+	  <li><a data-toggle="modal" href="#modal-contact">Contact</a></li>
+	  {{#if currentUser}}
+	  <li><a href="/contact">My dashboard patient</a></li>
+	  {{/if}}
+
 	</ul>
 	<ul class="nav navbar-nav navbar-right">
 		<li><a href="#"> {{> loginButtons}}</a></li>
@@ -25,4 +30,16 @@
   </div><!-- /.navbar-collapse -->
 	
 </nav>
+<div class="container-fluid sliderhome">
+	<div class="container-fluid">
+		
+		<div >
+			<h1>ClinicalME</h1>
+			<h4>Oral health for a healthy smile.</h4>
+			
+			
+		</div>
+		
+	</div>
+</div>
 </template>

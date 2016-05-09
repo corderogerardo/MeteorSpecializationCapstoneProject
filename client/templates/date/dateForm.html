@@ -40,7 +40,7 @@
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-md-offset-1 col-lg-offset-1">
 						<div class="form-group">
-						<label for="">Postal Code/ZIP code</label>
+						<label for="">ZIP code</label>
 						<input type="number" name="" id="input" class="form-control" value="" min="{5}" max="" step="" required="required" title="">
 						</div>
 					</div>
@@ -63,12 +63,12 @@
 						<label for="">Motive</label>
 						<select name="" id="input" class="form-control">
 							<option value="">-- Select --</option>
-							<option value="">Clinical laboratory</option>
-							<option value="">Primary care</option>
-							<option value="">Pediatrics</option>
-							<option value="">Maternity</option>
-							<option value="">Anesthesiology</option>
-							<option value="">Care Center cardiac patient</option>
+							<option value="">Dental Cleaning and Scaling</option>
+							<option value="">Root Canal Treatment</option>
+							<option value="">Porcelain Veneers</option>
+							<option value="">Dental Examination and Diagnosis</option>
+							<option value="">Restorative Dentistry</option>
+							<option value="">Wisdom Teeth Removal Surgery</option>
 							
 						</select>
 					</div>
@@ -81,6 +81,7 @@
 		</div>
 		
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		{{#if currentUser}}
 			<div class="form-group">
 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 				<button type="submit" class="btn btn-primary">Submit</button>
@@ -90,6 +91,11 @@
 			</div>
 				
 			</div>
+			{{else}}
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<h4>Please Register/SignIn First to submit an appointment!</h4>
+			</div>
+			{{/if}}
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 			<hr>
