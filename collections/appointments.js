@@ -1,12 +1,5 @@
-// code sent to client and server
-// which gets loaded before anything else (since it is in the lib folder)
-
 Appoitments = new Mongo.Collection("appoitments");
-Histories = new Mongo.Collection("histories");
-Users = new Mongo.Collection("users|");
 
-// set up a schema controlling the allowable 
-// structure of comment objects
 Appoitments = new SimpleSchema({
   name: {
     type: String,
