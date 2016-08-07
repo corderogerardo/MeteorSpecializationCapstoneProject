@@ -1,0 +1,49 @@
+--Center elements and child elements --
+-center() - center elements horizontally based on his position "relative or absolute"
+-center(childs) - Center childs horizontally
+-center(childs, vertically) - center childs vertically
+-center(childs, totally) - center childs vertically and horizontally
+
+center(a='', p='')
+	if @position == relative and a !=childs
+		margin-left auto
+		margin-right auto
+	if @position == absolute and a !=childs
+		left 0
+		right 0
+		margin-left auto
+		marign-right auto
+	if a == childs
+		display flex
+		if p == totally
+			align-items center
+			justify-content center
+		if p == vertically
+			align-items center
+		if p == ''
+			justify-content center
+
+/*-- Add a transition to the element --
+-animate() use for default short transitions
+-animate(long) use for a little longer transition*/
+animate(type='')
+	if type == ''
+		transition .15s linear
+	if type == long
+		transition .3s linear
+
+/*-- Add a transparency to the element with a variable --
+-vargba(variableColor, transparecncy)*/
+vargba(color,opacity)
+	rgba(red(color),green(color),blue(color),opacity)
+
+bordes(n)
+	-webkit-border-radius n
+	-moz-border-radius n
+	-ms-border-radius n
+	-o-border-radius n
+	border-radius n
+bordesMaterial()
+	box-shadow 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15)
+bordesMaterialDos()
+	box-shadow 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19)
